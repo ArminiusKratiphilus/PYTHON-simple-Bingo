@@ -104,7 +104,7 @@ class cell:
         self.inner_frame = tk.Frame(self.frame, width=120, height=120, bg=self.default_color)
         self.inner_frame.pack()
         self.inner_frame.pack_propagate(0)
-        self.label = tk.Label(self.inner_frame, text=content, bg=self.default_color, font=("Arial",10))
+        self.label = tk.Label(self.inner_frame, text=content, bg=self.default_color, font=("Arial",20))
         self.label.place(anchor="c", relx=0.5, rely=0.5)
         if content != "JOKER":
             self.frame.bind("<Button-1>", lambda event: self.click(event))
