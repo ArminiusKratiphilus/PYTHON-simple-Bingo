@@ -4,6 +4,8 @@ A simple python Bingo game with a number range 1 to 100. The pattern size as wel
 
 **english version**: en-bingo.py
 
+**german version**: de-bingo.py
+
 **following python packages are needed:**
 
 -tkinter _(included by default)_
